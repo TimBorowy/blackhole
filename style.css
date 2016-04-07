@@ -1,0 +1,87 @@
+* {
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+body {
+	margin: 0;
+	background-color: #707070;
+}
+.flexContainer {
+	display: flex;
+	margin: 20px;
+}
+.player {
+	width: 20%;
+	height: 600px;
+}
+.fieldContainer {
+	width: 60%;
+}
+.field {
+	max-width: 840px;
+	margin: 0 auto;
+}
+.flex.player {
+	display: flex;
+	flex-flow: wrap
+}
+
+#playField, .ui-droppable {
+	width: 130px;
+    height: 130px;
+	padding:10px;
+	border:1px solid #FFF;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+    margin: 0 5px;
+}    
+.circle {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	line-height: 85px;
+	color: #FFF;
+	box-sizing: border-box;
+}
+.circle.player1 {
+	background-color: #F44336;
+	border: 5px solid #F44336;
+}
+.circle.player2 {
+	background-color: #03A9F4;
+	border: 5px solid #03A9F4;
+}
+.active {
+	border: 5px solid #FFF!important;
+}
+
+.fieldRow {
+	margin-left: auto;
+	margin-right: auto;
+	height: 130px;
+}
+.fieldRow:first-child() {
+	width: 840px;
+}
+.fieldRow:nth-child(2) {
+	width: 700px;
+}
+.fieldRow:nth-child(3) {
+	width: 560px;
+}
+.fieldRow:nth-child(4) {
+	width: 420px;
+}
+.fieldRow:nth-child(5) {
+	width: 280px;
+}
+.fieldRow:nth-child(6) {
+	width: 140px;
+}
+
+
